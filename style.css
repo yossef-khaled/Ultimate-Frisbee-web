@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header{
+    background-color: #e4e269;
+}
+
+nav{
+    color: #000000;
+}
+
+a{
+    background-color: #f1a10b;
+    color: #ffffff;
+}
+
+img{
+    display: none;
+}
+
+section{
+    background-color: #e4e269;
+}
+
+p{
+    text-align: left;
+}
