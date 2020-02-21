@@ -18,12 +18,11 @@ header{
     height: 200px;
     align-self: center;
     background-image: url("images/flywheel.jpg"); 
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
 nav{
-    color: #000000;
+    text-align: center;
 }
 
 a{
@@ -31,16 +30,29 @@ a{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-img{
-    display: none;
+aside{
+    width: 310px;
+    background-color: #15680a;
+    border-radius: 5px;
 }
 
-section{
-    background-color: #e4e269;
+aside img{
+    height: 150px;
+    width: 250px;
+    margin: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+body{
+    margin: 20px;
+    padding: 2px;
+    background-color: #0ec42c;
 }
 
 p{
-    text-align: left;
+    color: #ffffff;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
@@ -59,3 +71,12 @@ nav a{
     background-color: #ffffff;
     opacity: 1;
 }
+
+.right{
+    margin-left: 320px;
+}
+
+.left{
+    float: left;
+}
+
