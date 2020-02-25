@@ -80,3 +80,45 @@ nav a{
     float: left;
 }
 
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 190px;
+}
+
+th{
+    color: #ffffff;
+    background-color: #15680a;
+    height: 35px;
+    width: 150px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px ;
+    border-bottom: solid;
+}
+
+th:nth-child(1){
+    text-align: left;
+    width:450px ;
+    padding-left: 20px;
+}
+
+td{
+    background-color: #7ed674;
+    opacity: 0.5;
+    height: 40px;
+    border-radius: 2px;
+}
+
+td:nth-child(1){
+    padding-left: 10px;
+}
+
+td:nth-child(2){
+    text-align: center;
+}
+
+td:nth-child(3){
+    text-align: center;
+}
+tr:hover td{
+    opacity: 1;
+}
